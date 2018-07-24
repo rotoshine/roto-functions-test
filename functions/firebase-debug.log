@@ -1,0 +1,34 @@
+[debug] [2018-07-24T07:59:50.513Z] ----------------------------------------------------------------------
+[debug] [2018-07-24T07:59:50.515Z] Command:       /Users/winterwolf0412/.nvm/versions/node/v9.4.0/bin/node /Users/winterwolf0412/.nvm/versions/node/v9.4.0/bin/firebase serve --only functions
+[debug] [2018-07-24T07:59:50.515Z] CLI Version:   3.19.3
+[debug] [2018-07-24T07:59:50.515Z] Platform:      darwin
+[debug] [2018-07-24T07:59:50.515Z] Node Version:  v9.4.0
+[debug] [2018-07-24T07:59:50.516Z] Time:          Tue Jul 24 2018 16:59:50 GMT+0900 (KST)
+[debug] [2018-07-24T07:59:50.516Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-24T07:59:50.524Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-24T07:59:50.524Z] > authorizing via signed-in user
+[debug] [2018-07-24T07:59:50.526Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/roto-functions-test  
+  
+ Tue Jul 24 2018 16:59:50 GMT+0900 (KST)
+[debug] [2018-07-24T07:59:52.698Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-24T07:59:52.699Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/roto-functions-test/tokens  
+  
+ Tue Jul 24 2018 16:59:52 GMT+0900 (KST)
+[debug] [2018-07-24T07:59:55.840Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-24T07:59:55.841Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/roto-functions-test  
+  
+ Tue Jul 24 2018 16:59:55 GMT+0900 (KST)
+[debug] [2018-07-24T07:59:57.449Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/winterwolf0412/workspaces/my-app'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-24T07:59:57.989Z] Fetching environment
+[debug] [2018-07-24T07:59:57.990Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/742099157022:getServerAppConfig  
+  
+ Tue Jul 24 2018 16:59:57 GMT+0900 (KST)
+[debug] [2018-07-24T07:59:59.044Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-24T07:59:59.045Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-24T08:00:00.609Z] Parsing function triggers
+[info] ✔  functions: articleDetail: http://localhost:5000/roto-functions-test/us-central1/articleDetail
